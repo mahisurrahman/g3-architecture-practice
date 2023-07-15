@@ -63,7 +63,7 @@ li a{
 .banner-content{
     max-width: 800px;
     text-align: center;
-    margin: 0 auto 100px auto;
+    margin: 0 auto 50px auto;
 }
 
 .btn-primary{
@@ -80,4 +80,30 @@ li a{
 
 .banner img{
     width: 100%;
+}
+
+
+
+/* Responsive Sections */
+/* Mobile */
+@media screen and (max-width: 576px) {
+    header{
+        padding:20px;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+
+}
+
+/* Tablet Version */
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+        padding:40px;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
 }
